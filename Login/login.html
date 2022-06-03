@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <head>
+    <link rel="stylesheet" href="../Login/css/login.css">
+  </head>
+
+<body>
+  <div class='container'>
+    <div class='card'>
+      <h1> Login </h1>
+      <div id='msgError'></div>
+      <div class='label-float'>
+        <input type='text' id='usuario' paceholder='Digite seu usúario' required>
+        <label id='userLabel' for='usuario'>Usuario</label>
+      </div>
+
+      <div class='label-float'>
+        <input type='password' id='senha' paceholder='Digite sua senha' required>
+        <label id='senhaLabel' for='senha'>Senha</label>
+        <i class="fa fa-eye" aria-hidden="true"></i>
+      </div>
+      <div class='justify-center'>
+        <button onclick='logar()'>Logar-se</button>
+      </div>
+      <div class='justify-center'>
+        <hr>
+      </div>
+      <p> Não tem uma conta?
+        <a href='../Cadastro/cadastro.html'> Cadastre-se </a>
+      </p>
+    </div>
+  </div>
+  <script src="../Login/js/login.js"></script>
+</body>
